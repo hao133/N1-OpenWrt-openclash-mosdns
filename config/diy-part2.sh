@@ -29,8 +29,8 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 # => OpenClash
 rm -rf feeds/luci/applications/luci-app-openclash
-git clone --depth=1 https://github.com/vernesong/OpenClash.git package/OpenClash
-
+#git clone --depth=1 https://github.com/vernesong/OpenClash.git package/OpenClash
+merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
 # => 删除默认argon主题
 #rm -rf feeds/luci/themes/luci-theme-argon
 
