@@ -21,12 +21,12 @@
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
 rm -rf feeds/packages/net/v2ray-geodata
-rm -rf feeds/luci/applications/luci-app-mosdns
+rm -rf feeds/packages/luci-app-mosdns
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 # => OpenClash
-rm -rf feeds/luci/applications/luci-app-openclash
+rm -rf feeds/packages/luci-app-openclash
 git clone --depth=1 https://github.com/vernesong/OpenClash.git package/OpenClash
 
 # => 删除默认argon主题
